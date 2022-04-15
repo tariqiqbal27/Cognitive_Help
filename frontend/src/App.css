@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.rounded-corner {
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 600px) { 
+    .home-background {
+        font-family: 'Shadows Into Light', cursive;
+        background-color: #247BA0;
+        height: 100vh;
+        z-index: 1;
+    }
+    
+    .home-page-text {
+        color: white;
+        font-size: 21px;
+        font-weight: bold;
+        text-align: end;
+    }
+    .comment-avatar {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+
+.comment {
+    background-color: #e9ecef;
+    border-radius: 12px;
+    padding: 4px;
+    
+}
+.comment-posted-by {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.comment-footer-text {
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+.feed-avatar {
+    height: 45px;
+    width: 45px;
+}
+
+@media only screen and (min-width: 1025px) {
+    .register-card {
+        width: 60%;
+        margin: auto;
+        margin-top: 10%;
+    }
+    .login-card {
+        width: 60%;
+        margin: auto;
+        margin-top: 15% !important;
+    }
+    .home-background {
+        font-family: 'Shadows Into Light', cursive;
+        background-color: #247BA0;
+        height: 90vh;
+    }
+
+    .home-page-text {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: end;
+    margin-left: 40vh;
+    margin-right: 15vh;
+    margin-top: 20vh;
+    }
+    .comment-avatar {
+        height: 40px;
+        width: 40px;
+    }
+
+    
+} 
+
